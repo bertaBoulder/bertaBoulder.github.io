@@ -5,10 +5,10 @@ body {
     background-color: ;
 }
     
-a:link     {color:#FF0000;}           /* unvisited link    - red                 */
-a:visited {color:#00FF00;}          /* visited link        - lime green       */
-a:hover  {color:#FF00FF;}          /* mouse over link - magenta         */
-a:active {color:#0000FF;}          /* selected link      -  blue              */
+a:link    {color:#FF0000;}          /* unvisited link    - red             */
+a:visited {color:#00FF00;}          /* visited link      - lime green      */
+a:hover   {color:#FF00FF;}          /* mouse over link   - magenta         */
+a:active  {color:#0000FF;}          /* selected link     -  blue           */
     
 #header {
    width: 80%;
