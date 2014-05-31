@@ -4,6 +4,9 @@ body {
   padding: 0; 
 }
 
+a {
+  text-decoration: none;
+}
 .center {
    text-align: center;
 }
@@ -16,12 +19,13 @@ body {
 
 .talisize {
    font-style: italic;
+   font-weight: 700
 }
 
 .sectionHeader {
   text-align: center;
   font-size: 1.25em;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .sizeIt {
@@ -30,28 +34,42 @@ body {
 }
 
 #header {
-
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #headerTitle {
-
+  font-size: 1.75em;
+  font-weight: bold;
+  width: 100%;
+  margin: 20px auto 9px auto;
+  text-align: center;
 }
 
 #headerAddr {
-
+  font-size: 1.17em;
+  font-weight: bold;
+  width: 100%;
+  margin: 1px auto 10px auto;
+  text-align: center;
 }
 #contact {
-
+  width: 90%;
+  margin: 0 auto0 15px; 
 }
 .contactTitle {
    display: inline-block;
    float: left;
-   margin: 0 10 0 10;
 }
-.titleLeft {
+
+.contactTitleLeft {
    display: inline-block;
-   margin: 0 10px 0 10px;
+
+   margin: 0 auto 0 10px;
    line-height: 2em;
+   font-size: 1.125em;
+   font-weight: 700;
 }
 
 #contactLinkedIn {
@@ -65,16 +83,88 @@ body {
    display: inline-block;
    float: left;
    line-height: 2em;
-   font-size: 1.125em;
+   font-size: 1em;
 }
 
 #contactGitHub {
    display: inline-block;
    float: left;
    line-height: 2em;
+   font-size: 1em;
+}
+
+#bodyHeader {
+
+}
+
+#skills {
+  margin-top: 16px;
+  margin-bottom: 8px
+}
+
+.skillsTitle {
+   display: inline-block;
+   float: left;
+   height: 36px;
+}
+.skillsTitleLeft {
+   display: inline-block;
+   margin: 0 auto 0 10px;
+   line-height: 1.5em;
+   font-size: 1.125em;
+   font-weight: 700;
+ }
+.skillsList {
+   display: inline-block;
+   margin: 0 auto 0 10px;
+   line-height: 1.5em;
    font-size: 1.125em;
 }
 
+#experience {
+  margin-top: 16px;
+  margin-bottom: 8px
+}
+
+.job {
+  font-size: 1.125em;
+  float: left;
+  margin: 5px auto 0 15px;
+}
+
+.duties {
+  font-size: 1em;
+  margin: 0 10% 0 30px;
+}
+.dutiesMarker {
+  line-height: 1.125em;
+  float: left;
+  display: inline-block;
+  margin-right: 12px;
+  height: 2em;
+}
+
+.dutiesDescription {
+  display: inline;
+  width: 80%;
+  margin: 0 7px 0;
+}
+
+#education {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  width: 85%;
+}
+
+#workHistory {
+  margin-top: 16px;
+  margin-bottom: 8px
+}
+
 .clearFloats {
+   clear: both;
+}
+
+.skillsFloats {
    clear: both;
 }
