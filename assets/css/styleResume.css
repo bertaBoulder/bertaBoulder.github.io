@@ -7,6 +7,11 @@ body {
 a {
   text-decoration: none;
 }
+
+br {
+  width: 100%;
+}
+
 .center {
    text-align: center;
 }
@@ -23,6 +28,7 @@ a {
 }
 
 .sectionHeader {
+  width: 100%;
   text-align: center;
   font-size: 1.25em;
   font-weight: 700;
@@ -34,7 +40,7 @@ a {
 }
 
 #header {
-  width: 90%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -65,8 +71,7 @@ a {
 
 .contactTitleLeft {
    display: inline-block;
-
-   margin: 0 auto 0 10px;
+   margin: 0 auto 0 15px;
    line-height: 2em;
    font-size: 1.125em;
    font-weight: 700;
@@ -104,8 +109,10 @@ a {
 
 .skillsTitle {
    display: inline-block;
+   margin-left: 15px;
    float: left;
    height: 36px;
+   text-align: left;
 }
 .skillsTitleLeft {
    display: inline-block;
@@ -123,21 +130,36 @@ a {
 
 #experience {
   margin-top: 16px;
-  margin-bottom: 8px
+  margin-bottom: 8px;
+  width: 100%;
 }
 
 .job {
   font-size: 1.125em;
   float: left;
-  margin: 5px auto 0 15px;
+  margin: 3px auto 5px 15px;
+}
+
+.jobTitle {
+  width: 100%;
+  text-align: left;
 }
 
 .duties {
   font-size: 1em;
-  margin: 0 10% 0 30px;
+  margin: 0 5% 0 30px;
 }
-.dutiesMarker {
-  line-height: 1.125em;
+
+.dutiesMarkerShort {
+  line-height: 1em;
+  float: left;
+  display: inline-block;
+  margin-right: 12px;
+  height: 1em;
+}
+
+.dutiesMarkerLong {
+  line-height: 1.25em;
   float: left;
   display: inline-block;
   margin-right: 12px;
@@ -145,20 +167,21 @@ a {
 }
 
 .dutiesDescription {
-  display: inline;
-  width: 80%;
+  display: inline-block;
+  width: 90%;
   margin: 0 7px 0;
 }
 
 #education {
   margin-top: 16px;
   margin-bottom: 8px;
-  width: 85%;
+  width: 100%;
 }
 
 #workHistory {
   margin-top: 16px;
-  margin-bottom: 8px
+  margin-bottom: 8px;
+  width: 100%;
 }
 
 .clearFloats {
