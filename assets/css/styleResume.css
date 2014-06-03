@@ -39,6 +39,19 @@ br {
   margin-left: 12%;
 }
 
+.picFormat {
+  display: inline-block;
+  float: left;
+  width: 212px;
+  height: 128px;
+}
+
+.headerPos {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto 0 20%;
+}
+
 #header {
   width: 100%;
   margin-left: auto;
@@ -72,7 +85,7 @@ br {
 .contactTitleLeft {
    display: inline-block;
    margin: 0 auto 0 15px;
-   line-height: 2em;
+   line-height: 1.25em;
    font-size: 1.125em;
    font-weight: 700;
 }
@@ -80,21 +93,21 @@ br {
 #contactLinkedIn {
    display: inline-block;
    float: left;
-   line-height: 2em;
+   line-height: 1.25em;
    font-size: 1.125em;
 }
 
 #contactEmail {
    display: inline-block;
    float: left;
-   line-height: 2em;
+   line-height: 1.25em;
    font-size: 1em;
 }
 
 #contactGitHub {
    display: inline-block;
    float: left;
-   line-height: 2em;
+   line-height: 1.25em;
    font-size: 1em;
 }
 
@@ -103,7 +116,7 @@ br {
 }
 
 #skills {
-  margin-top: 16px;
+  margin-top: 25px;
   margin-bottom: 8px
 }
 
@@ -129,14 +142,14 @@ br {
 }
 
 #experience {
-  margin-top: 16px;
+  margin-top: 25px;
   margin-bottom: 8px;
   width: 100%;
 }
 
 .job {
   font-size: 1.125em;
-  float: left;
+/*  float: left;      */
   margin: 3px auto 5px 15px;
 }
 
@@ -173,19 +186,53 @@ br {
 }
 
 #education {
-  margin-top: 16px;
+  margin-top: 25px;
   margin-bottom: 8px;
   width: 100%;
 }
 
 #workHistory {
-  margin-top: 16px;
+  margin-top: 25px;
   margin-bottom: 8px;
   width: 100%;
 }
 
+#eduTable {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: auto;
+  font-size: 1em;
+}
+
+.eduCell {
+  font-size: 1em;
+/*  width: 25%;      */
+}
+
+.headerCell {
+  text-align: center;
+}
+
+.dataCell {
+  text-align: left;
+}
+
+.dateCell {
+  text-align: center;
+}
 .clearFloats {
    clear: both;
+}
+
+#workTable {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: auto;
+  font-size: 1em;
+}
+
+.workCell {
+  font-size: 1em;
 }
 
 .skillsFloats {

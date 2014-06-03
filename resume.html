@@ -8,8 +8,11 @@
   </head>
   <body>
     <div id="header">
-      <h2 id="headerTitle" class="center">Roberta Himes</h2>
-      <h3 id="headerAddr" class="center">Metro Denver, 80113</h3>
+      <div><img class="picFormat" src="assets/ResumePic.jpg" alt="picture"></div>
+      <div class="headerPos">
+        <h2 id="headerTitle" class="center">Roberta Himes</h2>
+        <h3 id="headerAddr" class="center">Metro Denver, 80113</h3>
+      </div>
       <div id="contact">
         <span class="contactTitle"><h3 class="contactTitleLeft">Connnections: </h3></span>
         <span id="contactLinkedIn" class="oneQuarter"><a href="http://www.linkedin.com/in/robertahimes">LinkedIn</a></span>
@@ -53,7 +56,7 @@
             <span class="dutiesDescription">Team Lead (2-4 programmers) for "Versioning" of medical records. The changes allowed medical providers (3500) to modify information on medical charts (500,000).</span><br>
           <span class="dutiesMarkerLong">o</span>
             <span class="dutiesDescription">Assistant Team Lead for the maintenance effort. Participated in two off-site (3 and 4 week) intensive training/development periods.</span><br>
-          <span class="dutiesMarkerLong">o</span>
+          <span class="dutiesMarkerShort">o</span>
             <span class="dutiesDescription">GUI maintenance and development for a medical records application.</span>
         </div>
       </div>
@@ -73,7 +76,7 @@
         <div class="duties"> 
           <span class="dutiesMarkerLong">o</span>
             <span class="dutiesDescription">Developed an extensible suite of backup and restore scripts for 4gb of data to/from a 20gb optical disc changer across 40 workstations.</span><br>
-          <span class="dutiesMarkerLong">o</span>
+          <span class="dutiesMarkerShort">o</span>
             <span class="dutiesDescription">Upgraded a suite of translation software for AutoCAD .dxf files between Releases 10 and 12.</span>
         </div>
       </div>
@@ -81,13 +84,13 @@
       <div class="job">
         <span class="jobTitle talisize">Graftek (Burroughs/Unisys): </span><br>
         <div class="duties"> 
-          <span class="dutiesMarkerLong">o</span>
+          <span class="dutiesMarkerShort">o</span>
             <span class="dutiesDescription">Technical Team Lead (6 developers) for the Numerical Control (N/C) section of a CAD/CAM program.</span><br>
           <span class="dutiesMarkerShort">o</span>
             <span class="dutiesDescription">Designed and implemented a new database schema for the N/C application.</span><br>
           <span class="dutiesMarkerShort">o</span>
             <span class="dutiesDescription">Designed and implemented a GUI user interface for the N/C application.</span><br> 
-          <span class="dutiesMarkerLong">o</span>
+          <span class="dutiesMarkerShort">o</span>
             <span class="dutiesDescription">Designed and implemented a Tool Library database and 3-d rotate function for displayed entities.</span><br>
         </div>
       </div>
@@ -95,7 +98,7 @@
       <div class="job">
         <span class="jobTitle talisize">AutoTrol Technology: </span><br>
         <div class="duties"> 
-          <span class="dutiesMarkerLong">o</span>
+          <span class="dutiesMarkerShort">o</span>
             <span class="dutiesDescription">Designed and implemented a Cross-Reference system for the Electrical Power Wiring application.</span><br>
           <span class="dutiesMarkerShort">o</span>
             <span class="dutiesDescription">Implemented a File Management system for the software library.</span>
@@ -103,48 +106,94 @@
       </div>
       <div class="clearfloats"></div>
     </div>
-    <br><div class="clearfloats"></div>
+    <div class="clearfloats"></div>
     <div id="education">
       <div class="sectionHeader">Education & Training</div>
-      <table>
+      <table id="eduTable">
         <tr>
-          <th>Awarded</th>
-          <th>nstitution</th>
-          <th>Dates</th>
+          <th class="eduCell headerCell">Awarded</th>
+          <th class="eduCell headerCell">Institution</th>
+          <th class="eduCell headerCell">Dates</th>
         </tr>
         <tr>
-          <td>WebLab Certificate</td>
-          <td>Front Range Community College</td>
-          <td>2014 - 2014</td>
+          <td class="eduCell dataCell">WebLab Certificate</td>
+          <td class="eduCell dataCell">Front Range Community College</td>
+          <td class="eduCell dateCell">2014 - 2014</td>
         </tr>
         <tr>
-          <td>Graduate Studies</td>
-          <td>Northern Illinois University</td>
-          <td>2005 - 2008</td>
+          <td class="eduCell dataCell">Graduate Studies</td>
+          <td class="eduCell dataCell">Northern Illinois University</td>
+          <td class="eduCell dateCell">2005 - 2008</td>
         </tr>
         <tr>
-          <td>Bachelor of Arts</td>
-          <td>University of Northern Colorado</td>
-          <td>2002 - 2004</td>
+          <td class="eduCell dataCell">Bachelor of Arts</td>
+          <td class="eduCell dataCell">University of Northern Colorado</td>
+          <td class="eduCell dateCell">2002 - 2004</td>
         </tr>
       </table>
       </div>
     </div>
     <div id="workHistory">
       <div class="sectionHeader">Work History</div>
-Job Title   Employer Dates
-Delivery Driver   Papa John's Pizza 12/2013 - current
-Driver - CDL-A Marten Transport  04/2012 - 09/2013
-Driver - CDL-A 20/20 Transportation 10/2011 - 02/2012
-Driver - CDL-A Stevens Transportation  02/2009 - 08/2011
-Unemployed  Semi-Retired/Self-Employed 01/2005 - 08/2005
-Developer   PureMatrix, Inc.  02/2001 - 08/2002
-Sr. Systems Analyst  Keane Inc.  02/1996 - 02/2001
-Programmer II  Evolving Systems, Inc.  07/1994 - 02/1996
-Sr. CAE Systems Analyst Source One Management Inc. 10/1992 - 07/1994
-Unemployed  Self-Employed  02/1992 - 10/1992
-Sr. Software Engineer   Graftek/Unisys 07/1980 - 02/1992
-Software Librarian   Auto-Trol Technology Co.   01/1980 - 07/1980
+      <table id="workTable">
+        <tr>
+          <th class="workCell headerCell">Job Title</th>
+          <th class="workCell headerCell">Employer</th>
+          <th class="workCell headerCell">Dates</th>
+        </tr>
+        <tr>
+          <td class="workCell dataCell">Delivery Driver</td>
+          <td class="workCell dataCell">Papa John's Pizza</td>
+          <td class="workCell dateCell">2013 - current</td>
+        </tr>
+        <tr>
+          <td class="workCell dataCell">Driver OTR</td>
+          <td class="workCell dataCell">Marten Transport</td>
+          <td class="workCell dateCell">2012 - 2013</td>
+        </tr>
+        <tr>
+          <td class="workCell dataCell">Driver OTR</td>
+          <td class="workCell dataCell">20/20 Transportation</td>
+          <td class="workCell dateCell">2011 - 2012</td>
+        </tr>  
+        <tr>
+          <td class="workCell dataCell">Driver OTR</td>
+          <td class="workCell dataCell">Stevens Transportation</td>
+          <td class="workCell dateCell">2009 - 2011</td>
+        </tr>   
+        <tr>
+          <td class="workCell dataCell">Developer</td>
+          <td class="workCell dataCell">PureMatrix, Inc.</td>
+          <td class="workCell dateCell">2001 - 2002</td>
+        </tr>
+             
+        <tr>
+          <td class="workCell dataCell">Sr. Systems Analyst</td>
+          <td class="workCell dataCell">Keane Inc.</td>
+          <td class="workCell dateCell">1996 - 2001</td>
+        </tr>
+           
+        <tr>
+          <td class="workCell dataCell">Programmer II</td>
+          <td class="workCell dataCell">Evolving Systems, Inc.</td>
+          <td class="workCell dateCell">1994 - 1996</td>
+        </tr>
+        <tr>
+          <td class="workCell dataCell">Sr. CAE Systems Analyst</td>
+          <td class="workCell dataCell">Source One Management Inc.</td>
+          <td class="workCell dateCell">1992 - 1994</td>
+        </tr>
+        <tr>
+          <td class="workCell dataCell">Sr. Software Engineer</td>
+          <td class="workCell dataCell">Graftek/Unisys</td>
+          <td class="workCell dateCell">1980 - 1992</td>
+        </tr>
+        <tr>
+          <td class="workCell dataCell">Software Librarian</td>
+          <td class="workCell dataCell">Auto-Trol Technology Co.</td>
+          <td class="workCell dateCell">1980 - 1980</td>
+        </tr>
+</table>
       </div>
     </div
 
