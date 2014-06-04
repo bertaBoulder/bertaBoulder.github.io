@@ -42,7 +42,7 @@ br {
 .picFormat {
   display: inline-block;
   float: left;
-  width: 210px;
+  width: 128px;
   height: 128px;
 }
 
@@ -198,15 +198,14 @@ br {
 }
 
 #eduTable {
-  width: 70%;
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 10%;
   margin-right: auto;
   font-size: 1em;
 }
 
 .eduCell {
-  font-size: 1em;
-/*  width: 25%;      */
+  font-size: 1.125em;
 }
 
 .headerCell {
@@ -215,6 +214,9 @@ br {
 
 .dataCell {
   text-align: left;
+}
+.webLab {
+  font-weight:bold;
 }
 
 .dateCell {
@@ -225,8 +227,8 @@ br {
 }
 
 #workTable {
-  width: 70%;
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 10%;
   margin-right: auto;
   font-size: 1em;
 }
