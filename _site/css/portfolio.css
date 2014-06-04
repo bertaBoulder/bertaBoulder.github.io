@@ -1,15 +1,15 @@
-/* Created on May 21, 2014 3:48:03 PM */
-    
+
 #content {
 }
 
 .portfolioEntry {
-   font-size: 1.5em; 
+   font-size: 1.5em;
+   margin: 5px 5px 10px 5px; 
 }
    
 .portfolioDescription  {
    font-size: 1.125em;
-   margin: 5px 10px 5px 3px;
+   margin: 5px 10px 5px 30px;
 }
 
 .supportLink {
