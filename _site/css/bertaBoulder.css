@@ -9,20 +9,17 @@ a {
 a:hover {
    text-decoration: none;
 }
-a:link {color:#85FF5C;}       /* unvisited link  */
-a:visited {color:#75A319;}    /* visited link    */
-a:hover {color:#EFB2EF;}      /* mouse over link */
-a:active {color:#CACED1;}     /* selected link   */ 
-
+a:link    {color:#42802E;}    /* unvisited link       */
+a:visited {color:#75A319;}    /* visited link         */
+a:hover   {color:#EFB2EF;}    /* mouse over link      */
+a:active  {color:#CACED1;}    /* selected link        */ 
 
 #header {
   width: 100%;
   height: auto;
-/*  position: relative;    */
   background: #D1FFD1;
 }
 .headerGroup {
-
    background: #D1FFD1;
 }
 .profileImg {
@@ -57,9 +54,6 @@ a:active {color:#CACED1;}     /* selected link   */
   margin-right: 2.5%;
   margin-top: 1%;
   text-align: right;
-/*  position: absolute; 
-  bottom: 0px;
-  right: 0px;   */
 }
 
 .nav ul {
@@ -111,8 +105,10 @@ a:active {color:#CACED1;}     /* selected link   */
 .socialIcon {
   width: 32px;
   height: 32px;
+  margin: 5px 0 0 0;
 }
 .copyRight {
   font-size: .75em;
   text-align: center;
+  margin: 0 0 5px 0;
 }
