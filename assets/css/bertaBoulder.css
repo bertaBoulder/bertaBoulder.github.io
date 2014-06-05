@@ -84,6 +84,12 @@ a:active  {color:#CACED1;}    /* selected link        */
 
 }
 
+#p1 {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
 #closeOffContent {
   clear: both;
   width:100%;
