@@ -1,5 +1,13 @@
-
 #content {
+   position: relative;
+}
+
+#projectList {
+   margin: 0 0 0 0;
+   -webkit-margin-before: 0;
+   -webkit-margin-after: 0;
+   -webkit-margin-end: 0;
+   -webkit-margin-start: 0;
 }
 
 .portfolioEntry {
@@ -11,9 +19,11 @@
 
 .entryName {
    display: inline-block;
-   width: 20%;
+   float: left;
+   width: 190px;
+   line-height: 1.5em;
    font-size: 1.5em;
-   margin: 5px 5px 10px 5px; 
+   margin: 5px 10px 5px 0; 
 }
    
 .entryDescription  {
@@ -21,6 +31,7 @@
    width: 75%;
    font-size: 1.125em;
    margin: 5px 0 5px 0;
+   padding: 0 5px 0 0;
 }
 
 .supportLink {
